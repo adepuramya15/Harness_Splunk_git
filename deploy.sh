@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Hardcoded Splunk HEC values
-SPLUNK_URL="https://451c-136-232-205-158.ngrok-free.app"
+SPLUNK_URL=" https://8e56-136-232-205-158.ngrok-free.app"
 HEC_TOKEN="07a8d8e7-3e10-4f6e-b001-62cb662c962a"
 
 # Specify the log file and sourcetype directly here
