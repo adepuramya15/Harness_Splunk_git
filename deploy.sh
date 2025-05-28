@@ -31,4 +31,4 @@ else
   exit 1
 fi
 
-echo "✅ Deployment finished!"
+echo "✅ Deployment finished!!"
