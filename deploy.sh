@@ -5,8 +5,8 @@ SPLUNK_URL="https://451c-136-232-205-158.ngrok-free.app"
 HEC_TOKEN="07a8d8e7-3e10-4f6e-b001-62cb662c962a"
 
 # Specify the log file and sourcetype directly here
-LOGFILE="logs/app.log"         # ✅ Change this to your desired log file
-SOURCETYPE="Ravi"               # ✅ Change this to your desired sourcetype
+LOGFILE="logs/errors.log"         # ✅ Change this to your desired log file
+SOURCETYPE="Eshwar"               # ✅ Change this to your desired sourcetype
 INDEX="my_harness_index"           # ✅ Change this to your desired index
 
 # Debug info
