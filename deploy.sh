@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Hardcoded Splunk HEC values
-SPLUNK_URL="https://8e56-136-232-205-158.ngrok-free.app"
+SPLUNK_URL="https://d8dd-136-232-205-158.ngrok-free.app"
 HEC_TOKEN="07a8d8e7-3e10-4f6e-b001-62cb662c962a"
 
 # Specify the log file and sourcetype directly here
 LOGFILE="logs/application.log"         # ✅ Change this to your desired log file
-SOURCETYPE="Today"               # ✅ Change this to your desired sourcetype
+SOURCETYPE="Thursday"               # ✅ Change this to your desired sourcetype
 INDEX="my_harness_index"           # ✅ Change this to your desired index
 
 # Debug info
