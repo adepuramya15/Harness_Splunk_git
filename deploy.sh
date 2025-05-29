@@ -1,25 +1,20 @@
 #!/bin/bash
-
+ 
 # Hardcoded Splunk HEC values
 SPLUNK_URL="https://d8dd-136-232-205-158.ngrok-free.app"
 HEC_TOKEN="07a8d8e7-3e10-4f6e-b001-62cb662c962a"
-
-# Specify the log file and sourcetype directly here
-<<<<<<< HEAD
-LOGFILE="logs/application.log"         # ✅ Change this to your desired log file
-SOURCETYPE="Thursday"               # ✅ Change this to your desired sourcetype
-=======
+ 
+# Specify the log file and source ltype directly here
 LOGFILE="logs/app.log"         # ✅ Change this to your desired log file
-SOURCETYPE="Notepad"               # ✅ Change this to your desired sourcetype
->>>>>>> 80f4db01862dd3389fd3fde25f2880b6fdc47faf
-INDEX="my_harness_index"           # ✅ Change this to your desired index
-
+SOURCETYPE="Thursday"               # ✅ Change this to your desired source type
+INDEX="my_harness_index"     # ✅ Change this to your desired index
+ 
 # Debug info
 echo "Sending logs to: $SPLUNK_URL"
 echo "Using sourcetype: $SOURCETYPE"
 echo "Using index: $INDEX"
 echo "Log file: $LOGFILE"
-
+ 
 # Validate the log file exists
 if [[ -f "$LOGFILE" ]]; then
   echo "📤 Sending $LOGFILE to Splunk..."
@@ -35,5 +30,5 @@ else
   echo "❌ Log file not found: $LOGFILE"
   exit 1
 fi
-
-echo "✅ Deployment finished!!!"
+ 
+echo "✅ Deployment finished!"
