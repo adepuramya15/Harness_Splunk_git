@@ -6,8 +6,8 @@ HEC_TOKEN="07a8d8e7-3e10-4f6e-b001-62cb662c962a"
   
 # Specify the log file and source ltype directly here
 LOGFILE="logs/transaction.log"         # ✅ Change this to your desired log file
-SOURCETYPE="start"               # ✅ Change this to your desired source type
-INDEX="harness3"     # ✅ Change this to your desired index
+SOURCETYPE="white"               # ✅ Change this to your desired source type
+INDEX="my_harness_index"     # ✅ Change this to your desired index
  
 # Debug info
 echo "Sending logs to: $SPLUNK_URL"
