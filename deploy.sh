@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # Hardcoded Splunk HEC values
-SPLUNK_URL="https://ffb1-136-232-205-158.ngrok-free.app"
-HEC_TOKEN="07a8d8e7-3e10-4f6e-b001-62cb662c962a"
+SPLUNK_URL="https://dfa3-136-232-205-158.ngrok-free.app"
+HEC_TOKEN="9b8f0b3a-4e75-4f70-8689-8db4e22d73fb"
   
 # Specify the log file and source ltype directly here
 LOGFILE="logs/transaction.log"         # ✅ Change this to your desired log file
