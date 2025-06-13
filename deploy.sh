@@ -1,12 +1,12 @@
 #!/bin/bash
  
 # Hardcoded Splunk HEC values
-SPLUNK_URL="https://prd-p-xugh6.splunkcloud.com"
+SPLUNK_URL="https://prd-p-p4d4r.splunkcloud.com"
 HEC_TOKEN="9b8f0b3a-4e75-4f70-8689-8db4e22d73fb"
   
 # Specify the log file and source ltype directly here
 LOGFILE="logs/transaction.log"         # ✅ Change this to your desired log file
-SOURCETYPE="saturday"               # ✅ Change this to your desired source type
+SOURCETYPE="friday"               # ✅ Change this to your desired source type
 INDEX="my_harness_index"     # ✅ Change this to your desired index
  
 # Debug info
